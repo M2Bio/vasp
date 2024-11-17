@@ -11,3 +11,13 @@
   - [ ] AutoDock Vina
 - [ ] IO and pre-processing
 - [ ] Scoring of docking results
+
+## Test Data
+
+For now, we will use the LIT-PCBA dataset as a test case. The dataset is available at [drugdesign.unistra.fr](http://drugdesign.unistra.fr/LIT-PCBA/).
+
+### Download LIT-PCBA
+
+```bash
+wget http://drugdesign.unistra.fr/LIT-PCBA/Files/AVE_unbiased.tgz -P lit-pcba && tar -xzf lit-pcba/AVE_unbiased.tgz -C lit-pcba
+```
